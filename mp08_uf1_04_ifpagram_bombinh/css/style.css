@@ -1,0 +1,143 @@
+.menu{
+    background-color: white;
+    height: 168px;
+}
+.contactes{
+    background-color: white;
+    height: 195px;
+}
+.contingut{
+    height: 1800px;
+    width: 1695px;
+    margin: auto;
+
+}
+li{
+    display: inline-block;
+    margin: 10px;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 200px;
+}
+ul{
+    width: 1060px;
+    font-size: 10px;
+    margin: auto;
+    padding: 36px;
+}
+#contacte01{
+    background-image: url(../img/ifpagram_38.png);
+}
+#contacte02{
+    background-image: url(../img/ifpagram_36.png);
+}
+#contacte03{
+    background-image: url(../img/ifpagram_37.png);
+}
+#contacte04{
+    background-image: url(../img/ifpagram_20.png);
+}
+.logo{
+    
+    width: 150px;
+    height: 50px;
+    margin: 0 10px;
+    padding: 0 10px;
+    background-size: 100%;
+    background-image: url(../img/ifpagram_03.png);
+    float: left;
+    background-repeat: no-repeat;
+    background-color: yellow;
+   
+    
+}
+.user{
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin: 30px;
+    background-size: 100%;
+    background-image: url(../img/ifpagram_22.png);
+    float: right;
+}
+.nav{
+    width: 336px;
+    height: 50px;
+    margin: auto;
+}
+
+.nav ul{
+    height: 50px;
+    width: 210px;
+    padding: 0;
+    margin: auto;
+    
+   
+}
+.nav ul li{
+    height: 42px;
+    width: 42px;
+    margin: 4px;
+    
+}
+.home{
+    background-image: url(../img/Captura\ de\ pantalla\ 2023-10-10\ a\ las\ 17.08.22.png);
+}
+.serch{
+    background-image: url(../img/Captura\ de\ pantalla\ 2023-10-10\ a\ las\ 17.10.12.png);
+}
+.tv{
+    background-image: url(../img/Captura\ de\ pantalla\ 2023-10-10\ a\ las\ 17.11.12.png);
+}
+.like{
+    background-image: url(../img/Captura\ de\ pantalla\ 2023-10-10\ a\ las\ 17.12.38.png);
+}
+.post{
+    background-color: white;
+    width: 545px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+.post img{
+    width: 535px;
+}
+.post div{
+    width: 100px;
+    height:70px;
+    margin: 5px;
+}
+.post .posteador{
+    float: left;
+}
+.post .posteador img{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+}
+.post .reacciones{
+    float: right;
+   
+}
+
+.post h5{
+    height: 25px;
+    font-weight: 700;
+}
+.post h6{
+    height: 25px;
+}
+a:link{
+    opacity: 100%;
+
+}
+a:hover{
+    opacity: 60%;
+    
+}

@@ -1,0 +1,192 @@
+*{
+    position: relative;
+    margin-left: 300px;
+}
+.cap{
+    width: 500px;
+    height: 600px;
+    background-color: burlywood;
+    border-radius:150px 150px 250px 250px/ 200px 200px 200px 200px;
+}
+.pel{
+    height: 200px;
+    width: 500px;
+    margin-left: 0px;
+    background-color:rgb(190, 162, 52);
+    border-radius: 150px 150px 100px 100px;
+
+}
+.cellesesq{
+    height:20px ;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(105, 17, 17);
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.cellesdre{
+    height:20px ;
+    width: 100px;
+    border-radius: 100%;
+    background-color: rgb(105, 17, 17);
+    margin-left: 290px;
+    margin-top: -20px;
+}
+.ulldre{
+    height:75px ;
+    width: 90px;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 10px;
+    border-radius: 100%;
+}
+.ullesq{
+    height:75px ;
+    width: 90px;
+    background-color: white;
+    margin-top: -75px;
+    margin-left: 100px;
+    border-radius: 100%;
+
+}
+.pupiladre{
+    height:45px ;
+    width: 45px;
+    background-color: rgb(11, 81, 10);
+    margin-left: 320px;
+    border-radius: 100%;
+    margin-top: -58px;
+}
+.pupilaesq{
+    height:45px ;
+    width: 45px;
+    background-color: rgb(11, 81, 10);
+    margin-left: 123px;
+    border-radius: 100%;
+    margin-top: -45px;
+}
+.nariz{
+     height: 100px;
+     width: 50px;
+     background-color: rgb(208, 160, 97);
+     margin-left: 215px;
+     margin-top: -40px;
+     border-radius: 50% 50% 0 0;
+     
+}
+.narizder{
+    height:45px ;
+    width:45px ;
+    background-color: rgb(208, 160, 97);
+    margin-left: 200px;
+    margin-top: -40px;
+    border-radius: 50%;
+}
+.nariziz{
+    height:45px ;
+    width:45px ;
+    background-color: rgb(208, 160, 97);
+    margin-left: 234px;
+    margin-top: -45px;
+    border-radius: 50%;
+}
+.narizsombra{
+    height:40px ;
+    width:40px ;
+    background-color: rgb(183, 120, 69);
+    margin-left: 234px;
+    margin-top: -43px;
+    border-radius: 50%;
+}
+.narizsombra2{
+    height:40px ;
+    width:40px ;
+    background-color: rgb(183, 120, 69);
+    margin-left: 205px;
+    margin-top: -40px;
+    border-radius: 50%;
+}
+.orejaiz{
+    width: 220px;
+    height: 220px;
+    clip-path: ellipse(22% 40% at 0% 51%);
+    background-color: bisque;
+    margin-left: 500px;
+    margin-top: -210px;
+}
+.orejadere{
+    width: 220px;
+    height: 220px;
+    clip-path: ellipse(25% 40% at 100% 50%);
+    background-color: bisque;
+    margin-left: -220px;
+    margin-top: -215px;
+}
+.pendientedere{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin-left: 502px;
+    margin-top: -15px;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+.pendienteiz{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+    margin-left: -27px;
+    margin-top: -60px;
+}
+.boca{
+    height:50px ;
+    width: 125px;
+    background-color: rgb(223, 115, 115);
+    border-radius: 150px 150px 150px 150px/ 100px 100px 100px 100px ;
+    margin-top: 80px;
+    margin-left: 180px;
+}
+.ollueloderecho{
+    height:40px ;
+    width: 30px;
+    border-radius:50% ;
+    border-left:  2px solid rgba(222, 184, 135, 0.847);
+    margin-top: -40px;
+    margin-left: 350px ;
+    rotate: -33deg;
+
+}
+.ollueloizquierdo{
+    height:40px ;
+    width: 30px;
+    border-radius:50% ;
+    border-left:  2px solid rgb(156, 101, 34);
+    rotate: 200deg;
+    margin-left:90px ;
+    margin-top:-30px ;
+}
+
+.bocasombra{
+    height:10px ;
+    width: 80px;
+    background-color: rgba(133, 8, 8, 0.697);
+    border-radius: 150px 150px 150px 150px/ 100px 100px 100px 100px ;
+    margin-top: -30px;
+    margin-left: 200px;
+}
+.cuello{
+    height: 250px;
+    width: 220px;
+    background-color: rgba(222, 184, 135, 0.847);
+    margin-top: 70px;
+    margin-left:135px ;
+    z-index: -1;
+}
+.camiseta{
+    height: 700px;
+    width: 700px;
+    background-color: rgb(110, 191, 59);
+    border-radius:30% 30% 0 0 ;
+    margin-left: -100px;
+    margin-top: -130px;
+}
