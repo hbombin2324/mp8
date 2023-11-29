@@ -1,0 +1,15 @@
+body {
+    background: wheat;
+}
+
+
+ul a {
+    display: block;
+    width: 15rem;
+    height: 20rem;
+    background: skyblue;
+    border-radius: 5%;
+    float: left;
+    text-decoration: none;
+    margin: 0.5rem;
+}
