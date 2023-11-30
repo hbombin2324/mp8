@@ -7,7 +7,7 @@ ul{
     list-style-type: none;
     background-image: url(img/mario\ fondo\ 2.png);
     overflow-x:visible;
-    width: 4000px;
+    width: 6000px;
     height: 1080px;
 }
 
@@ -52,6 +52,16 @@ margin-left: -10rem;
 }
 .cuarta{
     background-image: url(img/4.png);
+    background-position: center;
+    background-size: cover;
+}
+.quinta{
+    background-image: url(img/5.png);
+    background-position: center;
+    background-size: cover;
+}
+.sexta{
+    background-image: url(img/6.png);
     background-position: center;
     background-size: cover;
 }
