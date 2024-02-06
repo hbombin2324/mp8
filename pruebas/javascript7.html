@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family:sans-serif;
+            margin:0;
+            padding:0;
+            font-size:2rem;
+            line-height:2rem;
+            color:white;
+        }
+        li{
+            width:1.5rem;
+            height:1.5rem;
+            border-radius:50%;
+            margin:0.5rem;
+        }
+        #verd{
+           background:green;
+        }
+        #vermell{
+           background:red;
+        }
+        #taronja{
+           background:orange;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li id="vermell" onclick="vermell()"></li>
+        <li id="taronja" onclick="taronja()"></li>
+        <li id="verd" onclick="verd()"></li>
+    </ul>
+    <p id="txt"></p>
+    <script>
+      function verd(){
+        document.body.style.background="green";
+        document.getElementById("verd").style.border="solid 10px white";
+        document.getElementById("taronja").style.border="solid 10px transparent";
+        document.getElementById("vermell").style.border="solid 10px transparent";
+        document.getElementById("txt").innerHTML="ENDEVANT"
+      } 
+      function taronja(){
+        document.body.style.background="orange";
+        document.getElementById("verd").style.border="solid 10px transparent";
+        document.getElementById("taronja").style.border="solid 10px white";
+        document.getElementById("vermell").style.border="solid 10px transparent";
+        document.getElementById("txt").innerHTML="ALERTA"
+      } 
+      function vermell(){
+        document.body.style.background="red";
+        document.getElementById("verd").style.border="solid 10px transparent";
+        document.getElementById("taronja").style.border="solid 10px transparent";
+        document.getElementById("vermell").style.border="solid 10px white";
+        document.getElementById("txt").innerHTML="STOP"
+      }
+
+    </script>
+</body>
+</html>
