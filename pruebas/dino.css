@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#joc{
+
+    margin: 20px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+#dino{
+    height: 50px;
+    width: 20px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+}
+.saltando{   
+    animation: saltar 250ms infinite;
+}
+@keyframes saltar {
+    0%{top:150px;}
+    33%{top:100px;}
+    66%{top:100px;}
+    100%{top:150px;}
+    
+}
+
+#obstacle{
+    height: 20px;
+    width: 20px;
+    background-color: blue;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: obstacle 0.5s infinite linear;
+}
+@keyframes obstacle {
+    0%{left:480px}
+    100%{left:-40px}
+    
+}
+#contador{
+    background: sandybrown;
+    margin: 40px;
+    padding: 20px 20px 20px 20px;
+    height: 40px;
+    width: 80px;
+    font-size: 50px;
+    color: white;
+    font-family: arial, helvetica, sans-serif;
+    text-align: center;
+}

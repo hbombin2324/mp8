@@ -1,0 +1,81 @@
+body {
+    background-color:#A2ADFF;
+    
+}
+
+ul{
+    list-style-type: none;
+    background-image: url(../img/mario\ fondo\ 2.png);
+    overflow-x:visible;
+    width: 6000px;
+    height: 1080px;
+}
+
+ul a {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    background-color: skyblue;
+    border-radius: 5%;
+    float: left;
+    text-decoration: none;
+    margin: 10rem;
+    margin-top: 34rem;
+    
+}
+.primera{
+    background-image: url(../img/1.png);
+    background-position: center;
+    background-size: cover;
+    margin-left: 0rem;
+    
+}
+.segunda{
+    background-image: url(../img/2.png);
+    background-position: center;
+    background-size: cover;
+    
+    margin-left: 16rem;
+
+}
+.tercera{
+background-image: url(../img/3.png);
+background-position: center;
+background-size: cover;
+} 
+.mario{
+background-image: url(../img/mario.png);
+background-size: 450%;
+background-position: center;
+margin-top: 49rem;
+margin-left: -10rem;
+}
+.cuarta{
+    background-image: url(../img/4.png);
+    background-position: center;
+    background-size: cover;
+}
+.quinta{
+    background-image: url(../img/5.png);
+    background-position: center;
+    background-size: cover;
+}
+.sexta{
+    background-image: url(../img/6.png);
+    background-position: center;
+    background-size: cover;
+}
+.septima{
+    background-image: url(../img/7.png);
+    background-position: center;
+    background-size: cover;
+}
+.octava{
+    background-image: url(../img/8.png);
+    background-position: center;
+    background-size: cover;
+}
+
+  
+
+/* mañana seguir con la ampldad */

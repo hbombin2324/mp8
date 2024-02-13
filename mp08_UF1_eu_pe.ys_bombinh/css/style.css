@@ -1,93 +1,198 @@
-*{
-    font-family:Helvetica;
-}
-.menu{
-    height: 50px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-top: -8px;
-    margin-left: -10px;
-    
-}
-.menu img{
-    margin-left: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-li{
-    display: inline;
-    padding: 5px;
-}
-ul{
-    margin-top: -30px;
-    margin-left: 30px;
-}
-.segon{
-    margin-left: 1900px;
-}
-a{
-    text-decoration:none ;
-    color: #ccc;
-}
-a:hover{
-    color: #FFF;
-    text-decoration: underline;
-}
-.cartelera{
+body{
     background-color: #222;
-    height: 2000px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu{
     width: 100%;
-    margin-left: -10px;
-    margin-top: -25px;
-}
-.documentales{
-    background-color: red;
-    height: 400px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    opacity: 0.5;
+  }
+  
+  .logo{
+    background-image: url(imatges/logo.png);
+    background-repeat: no-repeat;
+    width: 38px;
+    height: 30px;
+    margin: 5px 20px 5px 20px;
     display: inline-block;
-    
-}
-h1{
-    color: white;
-}
-.doc1{
+    float: left;
+  }
+  
+  .text{
+    color: #CCC;
+    margin: 0;
+    font-family: Helvetica;
     float: left;
     margin-left: 20px;
-}
-.doc2{
-    float: left;
-    margin-left: 20px;
-}
-.doc3{
-    float: left;
-    margin-left: 20px;
-}
-.doc4{
-    float: left;
-    margin-left: 20px;
-}
-.doc5{
-    float: left;
-    margin-left: 20px;
-}
-.doc6{
-    float: left;
-    margin-left: 20px;
-}
-.doc7{
-    float: left;
-    margin-left: 20px;
-}
-.titulo{
-    font-size: 14px;
-    color: #ccc;
-}
-.ano{
-    font-size: 11px;
-    color: #ccc;
-}
-.dere{
-    font-size: 11px;
-    color: #ccc;
+  }
+  .text p{
+    display: inline-block;
+  }
+  .textdreta{
     float: right;
-    margin-top: -20px;
-}
+    color: #CCC;
+    font-family: Helvetica;
+  }
+  .textdreta p{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .titol{
+    color: #FFF;
+    font-family: Helvetica;
+  }
+  .titol h2{
+    margin-top: 10px;
+  }
+  .contenidor{
+    height: 2000px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .contenidorpelicula{
+    width: 175px;
+    color: #CCC;
+    font-family: Helvetica;
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .contenidorpelicula:hover{
+      opacity: 0.5;
+  }
+  .contenidorpelicula h3{
+    margin: 0;
+    font-size: 14px;
+  }
+  .contenidorpelicula p{
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  .pelicules{
+    width: 175px;
+    height: 260px;
+    border-radius: 5px;
+    float: left;
+  }
+  .pelicules:hover{
+    opacity: 0.5;
+  }
+  .esquerra{
+    float: left;
+  }
+  .dreta{
+    float: right;
+  }
+  #pelicula1{
+    background-image: url(../imatges/1982Koyaanisqatsi.jpg);
+    background-repeat: no-repeat;
+  }
+  #pelicula2{
+    background-image: url(imatges/2004YTuQueSabes.jpg);
+    background-repeat: no-repeat;
+  }
+  #pelicula3{
+    background-image: url(imatges/2005Earthlings.jpg);
+    background-repeat: no-repeat;
+  }
+  #pelicula4{
+    background-image: url(imatges/2007Helvetica.jpg);
+    background-repeat: no-repeat;
+  }
+  #pelicula5{
+    background-image: url(imatges/2007Sicko.jpg);
+    background-repeat: no-repeat;
+  }
+  #pelicula6{
+    background-image: url(imatges/2008Zeitgeist2.jpg);
+    background-repeat: no-repeat;
+  }
+  #pelicula7{
+    background-image: url(imatges/2009ArtAndCopy.jpg);
+    background-repeat: no-repeat;
+  }
+  #pelicula8{
+    background-image: url(imatges/2009Home.jpg);
+    background-repeat: no-repeat;
+  }
+  #pelicula9{
+    background-image: url(imatges/2009RipARemixManifesto.jpg);
+    background-repeat: no-repeat;
+  }
+  #pelicula10{
+    background-image: url(imatges/2010ComprarTirarComprar.jpg);
+    background-repeat: no-repeat;
+  }
+  #pelicula11{
+    background-image: url(imatges/2010InsideJob.jpg);
+    background-repeat: no-repeat;
+  }
+  #peliculagris1{
+    background-image: url(imatges/2011LaDoctrinaDeShock.jpg);
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+  }
+  #peliculagris2{
+    background-image: url(imatges/2012SearchingForSugarMan.jpg);
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+  }
+  #peliculagris3{
+    background-image: url(imatges/2012TheActOfKilling.jpg);
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+  }
+  #peliculagris4{
+    background-image: url(../imatges/1982Koyaanisqatsi.jpg);
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+  }
+  #peliculaver{
+    background-image: url(imatges/XXXXpeli.jpg);
+    background-repeat: no-repeat;
+  }
+  #peliculavista{
+    background-color: rgb(47, 47, 47);
+    background-repeat: no-repeat;
+  }
+  #seguint{
+    background-image: url(imatges/XXXXserie.jpg);
+    background-repeat: no-repeat;
+  }
+  #seriesvista{
+    background-color: grey;
+  }
+  
+  @media screen and (max-width:640px) and (orientation:portrait) {
+    .barrasuperior{
+      width: 100%;
+      height: 3.125rem;
+    }
+    .peliculas{
+      width: 43.5%;
+      border-radius: 5px;
+      float: left;
+      margin-top: 60px;
+      margin-left: 3%;
+    }
+  
+    .textdreta{
+      display: none;
+    }
+    .contenidorpelicula h3{
+      font-size: 0.5rem;
+    }
+    .contenidorpelicula p{
+      font-size: 0.6364rem;
+    }
+    .titol{
+      font-size:1rem;
+    }
+  
+  }
